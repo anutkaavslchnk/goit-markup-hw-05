@@ -472,6 +472,7 @@ width: calc((100% - 3 * 24px) / 4);
 
 
 /* SECTION 5 */
+
 .fifth-sec{
   color:var(--white-grey-color);
   border: 1px solid #8E8F99;
@@ -517,11 +518,7 @@ fill:currentColor;
 
 
 /* FOOTER */
-.footer-sec{
-  display:flex;
-  align-items:baseline;
 
-}
 
 .footer-icon-list{
   align-items: center;
@@ -865,4 +862,259 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) rotate(-360deg);
+}
+.paragraph-modal{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color:  var(--grey-color);
+margin-bottom: 16px;
+padding-top: 72px;
+}
+.modal-form{
+padding-left:24px;
+padding-right:24px;
+}
+.modal-input{
+  display:block;
+  height:40px;
+  width:100%;
+  margin-bottom: 8px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+padding-left:60px;
+
+
+}
+.label-modal{
+  font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+
+
+letter-spacing: 0.04em;
+
+
+
+color: #8E8F99;
+
+}
+
+.name-span{
+  position:relative;
+
+}
+.modal-svg-name{
+  position: absolute;
+   left: 2px;
+    top: 50%;
+   transform: translateY(-50%);
+}
+.modal-svg-tel{
+  position: absolute;
+   left:2px;
+    top: 50%;
+   transform: translateY(-50%);
+}
+.modal-svg-email{
+  position: absolute;
+   left: 2px;
+    top: 50%;
+  
+}
+.modal-input:focus {
+  border-color: #4D5AE5;
+ 
+}
+
+.modal-input:focus + .modal-svg-name {
+  fill:#4D5AE5;
+}
+
+.modal-input:focus + .modal-svg-email {
+  fill:#4D5AE5;
+}
+
+.modal-input:focus + .modal-svg-tel {
+  fill:#4D5AE5;
+}
+.tel-span{
+  position:relative;
+
+}
+.email-span{
+  position:relative;
+
+}
+.text-comment{
+  font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 117% */
+
+letter-spacing: 0.04em;
+
+
+color: rgba(46, 47, 66, 0.4);
+width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  resize: none;
+}
+.btn-modal-window{
+min-width:169px;
+height:56px;
+font-family: 'Roboto', 'sans-serif';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+display:block;
+margin: 0 auto;
+letter-spacing: 0.04em;
+border:none;
+cursor: pointer;
+
+color: #FFFFFF;
+
+background-color: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+margin-top: 24px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.btn-modal-window:hover{
+  background-color:#404BBF;
+}
+
+.checkbox-policy:checked + .label-check span {
+  background-color:#404BBF;
+  border: none;
+  fill: #ffffff;
+}
+.checkbox-policy:focus + .label-check span {
+  border-color:#404BBF;
+}
+
+.label-check{
+  display: flex;
+  align-items: center;
+font-size: 12px;
+line-height: 1.17;
+
+letter-spacing: 0.04em;
+
+
+color: #8E8F99;
+margin-top: 16px;
+}
+.label-check > a{
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #4D5AE5;
+  margin-left: 3px;
+}
+
+.label-check > span
+{
+  margin-right: 12px;
+width: 16px;
+height: 16px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 2px;
+display: flex;
+align-items: center;
+justify-content: center;
+fill: transparent;
+}
+
+.form{
+  margin-left: 80px;
+}
+.footer-form{
+width:264px;
+display:flex;
+}
+.email-input{
+  min-width: 100%;
+  height:40px;
+  border: 1px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background-color:transparent;
+padding-left: 16px;
+color:#ffffff;
+margin-right: 24px;
+}
+.email-input::placeholder{
+  font-weight: 400;
+font-size: 12px;
+line-height: 2;
+/* identical to box height, or 200% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+left:16px;
+
+
+
+/* WHITE */
+
+color: #FFFFFF;
+
+}
+.btn-email-footer:hover,
+.btn-email-footer:focus{
+background-color: var(--ocean-color) ;
+}
+.btn-email-footer{
+  
+  flex-direction: row;
+  justify-content: center;
+  
+  padding: 8px 24px;
+  background: #4D5AE5;
+border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+border:none;
+min-width: 165px;
+height: 40px;
+/* WHITE */
+
+color: #FFFFFF;
+cursor:pointer;
+transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.email-svg-footer{
+
+margin-left: 16px;
+}
+.footer-sec{
+  display:flex;
+  align-items:baseline;
+
 }
