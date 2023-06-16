@@ -1008,7 +1008,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .label-check{
-  display: flex;
+
   align-items: center;
 font-size: 12px;
 line-height: 1.17;
@@ -1024,14 +1024,15 @@ margin-top: 16px;
   text-decoration: underline;
  
   color: var(--logo-color);
-  margin-left: 3px;
+  margin-left: px;
 }
 
-.label-span-privacy{
-  width: 16px; 
-margin-right: 12px;
+.span-privacy{
+ 
+margin-right: 4px;
 
-height: 16px;
+height:16px;
+width: 16px; 
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 2px;
 
@@ -1040,6 +1041,7 @@ justify-content: center;
 fill: transparent;
  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  display: inline-flex;
+ 
 }
 
 .form{
